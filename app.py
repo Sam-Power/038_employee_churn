@@ -11,6 +11,7 @@ html_temp = """
 </div>"""
 st.markdown(html_temp,unsafe_allow_html=True)
 
+
 satisfaction_level = st.sidebar.slider("satisfaction_level",9,100,33,step=1) /100
 last_evaluation = st.sidebar.slider("last_evaluation",36,100,55,step = 1)/100
 number_project=st.sidebar.slider("number_project",2,7,3,step = 1)
